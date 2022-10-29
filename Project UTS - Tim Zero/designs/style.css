@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+}
+header{
+    position: fixed;
+    float: left;
+    font-family: 'Barlow', sans-serif;
+    min-width: 1800px;
+    z-index: 0;
+    padding: 10px;
+    background-color: rgb(13, 13, 111);
+}
+body{
+    background-color: rgb(15, 15, 61);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    font-size: 50px;
+    margin: 1%;
+    margin-top: 10px;
+}
+h2{
+    font-family: 'Barlow', sans-serif;
+    color: antiquewhite;
+    margin: 1%;
+    font-size: 25px;
+}
+h3{
+    font-family: 'Barlow', sans-serif;
+    color: yellow;
+    font-size: 40px;
+    margin: 1%;
+    margin-top: 4%;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 1%;
+}
+table{
+    color: antiquewhite;
+    margin: 2px;
+    max-width: 98%;
+    padding-right: 2%;
+    display: block;
+    clear: left;
+    font-family: 'Barlow', sans-serif;
+}
+td{
+    padding: 1%;
+    padding-right: 2%;
+}
+th{
+    font-size: 200%;
+    text-align: left;
+    padding: 1%;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2%;
+    padding: 0;
+    border-radius: 3%;
+}
+
+/* navbar and dropdown menu (w3schools and StackOverflow) */
+h1.logo{
+    float: left;
+    display: inline;
+    color: yellow;
+    font-size: 200%;
+    margin: 5px;
+    padding: 0;
+    margin-right: 10px;
+}
+ul.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    float: left;
+}
+li.navmenu {
+    display: inline;
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover{
+    color:grey;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 250px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+.dropdown-content a:hover{
+    color: grey;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.clickMe {
+    appearance: auto;
+    text-decoration: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 3%;
+    display: block;
+    text-align: left;
+}
+
+/* homepage special elements */
+body.bg1{
+    background-image: url(../images/homepage2.jpg);
+    /* https://www.pixelstalk.net/wp-content/uploads/2016/04/Earth-at-night-view-from-space-4k-wallpaper.jpg */
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
+}
+body.bg2{
+    background-color:rgb(rgb(36, 36, 36)) ;
+}
+h1.title{
+    color: yellow;
+    margin-top: 17%;
+    margin-bottom: 35%;
+    margin-left: 16%;
+    float: left;
+}
+table.home{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 150%;
+}
+
+/* page 1 special elements */
+table.contoh{
+    margin-top: 3%;
+}
+
+/* page 5 special elements */
+td.bigger{
+    font-size: 20px;
+}
+
+/* about us special elements */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+  table.footer {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+td.footer_kanan {
+    text-indent: 1050px;
+}
+
+a.warna_footer {
+    color: white;
+}
+
+td.footer_AboutUs {
+    text-indent: 1000px;
+}
+
+img.foto_diri {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+
+}
+
+p.foto_diri {
+    text-align: left;
+    margin-left: 100px;
+}
+
+img.logo_ig {
+    width: 45px;
+    height: 45px;
+}
