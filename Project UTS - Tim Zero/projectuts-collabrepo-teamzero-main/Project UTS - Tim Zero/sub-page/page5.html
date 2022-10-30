@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form dan PHP Dasar</title>
+    <link rel="stylesheet" type="text/css" href="../designs/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body class="bgmateri">
+    <!-- nav menu -->
+<header>
+    <h1 class="logo">startfromzero.</h1>
+    <ul class="navbar">
+        <li class="navmenu"><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+            <a>
+                Materi
+                <div class="dropdown-content">
+                  <a class="clickMe" href="page1.html">Struktur HTML Dasar</a>
+                  <a class="clickMe" href="page 2.html">Tag Heading dan Paragraph</a>
+                  <a class="clickMe" href="page3.html">Link, Image, Iframe</a>
+                  <a class="clickMe" href="page 4.html">List dan Table</a>
+                  <a class="clickMe" href="page5.html">Form dan PHP Dasar</a>
+                  <a class="clickMe" href="page 6.html">CSS</a>
+                </div>
+            </a>
+        </li>
+        <li class="navmenu"><a href="About us.html">About Us</a></li>
+    </ul>
+</header>
+
+
+
+<!-- rest of page -->
+    <div class="restofpage">
+        <h1 class="cleartop">Form dan PHP Dasar</h1>
+    <h3>Form</h3>
+    <h2>Pengenalan HTML Form</h2>
+    <p>Form pada HTML digunakan untuk menerima input dari pengunjung website. Data yang sudah diinput biasanya dikirim dan diterima oleh suatu server untuk diproses menjadi suatu fungsi yang dibutuhkan.</p>
+    <p>Dalam pembuatan form di HTML, digunakan tag &lt;form&gt; beserta atribut yang dibutuhkan agar form tersebut dapat berfungsi dengan baik.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/form-syntax-examples.png" alt="form-syntax-examples"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Penggunaan elemen &lt;input&gt;</h2>
+    <p>Elemen &lt;input&gt; merupakan salah satu elemen paling banyak dipakai dalam pembuatan HTML form. Elemen &lt;input&gt; dapat ditampilkan dalam berbagai jenis bentuk, tergantung dengan atribut 'type' yang digunakan.</p>
+    <p>Berikut adalah beberapa contoh dari elemen &lt;input&gt;:</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/form-input-elements.png" alt="form-input-elements"></td>
+            </tr>
+            <tr>
+                &nbsp;
+            </tr>
+            <tr>
+                <td colspan="2" class="bigger">Contoh penggunaan berbagai macam input type beserta tampilannya dalam webpage:</td>
+            </tr>
+            <tr>
+                <td><img src="../images/input-type-code.png" alt="input-type-code"></td>
+                <td><img src="../images/input-type-hasil.png" alt="input-type-hasil"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Input Type radiobutton</h2>
+    <p>Radiobutton berfungsi sebagai objek pilihan, di mana pengunjung webpage dapat memilih hanya salah satu dari banyaknya pilihan yang tersedia di dalam radiobutton yang diberikan.</p>
+    <p>Tag yang digunakan dalam pembuatan radiobutton adalah &lt;input type="radio"&gt;.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" class="bigger">Contoh pengetikan kode radiobutton dan hasilnya:</td>
+            </tr>
+            <tr>
+                <td><img src="../images/input-radiobutton-code.png" alt="input-radiobutton-code"></td>
+                <td>&nbsp;</td>
+                <td><img src="../images/input-radiobutton-hasil.png" alt="input-radiobutton-hasil"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Input Type checkbox</h2>
+    <p>Checkbox berfungsi sebagai objek pilihan, secara fungsi serupa dengan radiobutton, namun perbedaannya adalah dengan menggunakan checkbox, pengguna dapat memilih lebih dari 1 pilihan.</p>
+    <p>Tag yang digunakan dalam pembuatan checkbox adalah &lt;input type="checkbox"&gt;.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" class="bigger">Contoh pengetikan kode checkbox dan hasilnya:</td>
+            </tr>
+            <tr>
+                <td><img src="../images/input-checkbox-code.png" alt="input-checkbox-code"></td>
+                <td>&nbsp;</td>
+                <td><img src="../images/input-checkbox-hasil.png" alt="input-checkbox-hasil"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Input Type combobox</h2>
+    <p>Combobox, atau yang umum disebut &lt;select&gt; element, sering digunakan untuk membuat menu pilihan yang berbentuk dropdown.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" class="bigger">Contoh pengetikan kode combobox dan hasilnya:</td>
+            </tr>
+            <tr>
+                <td><img src="../images/input-combobox-code.png" alt="input-combobox-code"></td>
+                <td>&nbsp;</td>
+                <td><img src="../images/input-combobox-hasil.png" alt="input-combobox-hasil"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <h3>PHP Dasar</h3>
+    <h2>Pengenalan PHP</h2>
+    <p>PHP adalah bahasa pemograman yang digunakan untuk scripting dari bahasa pemograman HTML, Javascript dan CSS yang dieksekusi dari sisi server. Ada banyak kegunaan dari PHP itu sendiri, beberapa diantaranya adalah untuk mengumpulkan data dari input pengguna (form, dll), memunculkan konten dinamis, dan lain sebagainya.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/php-basic1.png" alt="php-basic1"></td>
+                <td><img src="../images/php-basic1-hasil.png" alt="php-basic1-hasil"></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Untuk PHP Dasar, fungsi yang sering digunakan (terutama dalam pembuatan form) adalah 'echo' dan 'variable'. Echo adalah fungsi untuk menampilkan suatu tulisan pada webpage, sementara variable adalah fungsi untuk menyimpan suatu hasil input yang nantinya dapat digunakan untuk respon webpage ataupun operasi matematika.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/php-basic2.png" alt="php-basic2"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Form and PHP</h2>
+    <p>PHP umumnya digunakan dalam pembuatan form karena kemampuannya untuk menyimpan data dari hasil input yang dimasukkan oleh pengguna ke dalam form HTML.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/php-n-form-code.png" alt="php-n-form-code"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <footer>
+        <ul class="footer">
+            <li class="previous"><a href="page 4.html">&lt; Halaman Sebelumnya</a></li>
+            <li class="copyright">&copy;2022 | Team Zero</li>
+            <li class="next"><a href="page 6.html">Halaman Selanjutnya &gt;</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

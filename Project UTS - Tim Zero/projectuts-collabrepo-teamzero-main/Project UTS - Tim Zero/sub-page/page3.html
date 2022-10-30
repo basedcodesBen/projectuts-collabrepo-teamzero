@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link, Image, Iframe</title> 
+    <link rel="stylesheet" type="text/css" href="../designs/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body class="bgmateri">
+    <!-- nav menu -->
+<header>
+    <h1 class="logo">startfromzero.</h1>
+    <ul class="navbar">
+        <li class="navmenu"><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+            <a>
+                Materi
+                <div class="dropdown-content">
+                  <a class="clickMe" href="page1.html">Struktur HTML Dasar</a>
+                  <a class="clickMe" href="page 2.html">Tag Heading dan Paragraph</a>
+                  <a class="clickMe" href="page3.html">Link, Image, Iframe</a>
+                  <a class="clickMe" href="page 4.html">List dan Table</a>
+                  <a class="clickMe" href="page5.html">Form dan PHP Dasar</a>
+                  <a class="clickMe" href="page 6.html">CSS</a>
+                </div>
+            </a>
+        </li>
+        <li class="navmenu"><a href="About us.html">About Us</a></li>
+    </ul>
+</header>
+
+
+
+<!-- rest of page -->
+    <div class="restofpage">
+        <h1 class="cleartop">Link, Image, Iframe</h1>
+    <h3>Link</h3>
+    <h2>Syntax dan Hyperlink</h2>
+    <p>HTML menggunakan link yang bersifat Hyperlink. Ketika di klik, link tersebut dapat mengarahkan pengguna ke webpage lain, atau bagian tertentu dalam homepage yang sedang dibaca.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/link1.png"></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Dalam HTML, tag yang digunakan adalah &lt;a&gt;. </p>
+        <br><br>
+
+    <h2>URL Relatif dan Absolute</h2>
+    <p>
+        Terdapat 2 jenis link yang biasa digunakan dalam pembuatan website HTML, yaitu relatif dan absolute. Relatif adalah cara untuk membuat link ke suatu halaman dalam website yang sama.
+        Sementara absolute adalah cara untuk membuat link ke suatu halaman dalam website berbeda.
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/absolute-relatif.png"></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        Untuk URL Relative, link tersebut tidak terbatas hanya membuat link ke page berbeda dan website sama, namun dengan menggunakan attribute 'id', kita dapat membuat link yang dapat mengarahkan ke section tertentu yang ingin ditautkan.
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/url-relative-id.png" alt="url-relative-id"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Link mailto:</h2>
+    <p>
+        Link yang disematkan dalam HTML juga dapat digunakan untuk mengarahkan pengguna untuk mengirim email dari akun email pengguna.
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/link-mailto.png" alt="link-mailto"></td>
+            </tr>
+        </tbody>
+    </table>
+        <br><br>
+
+
+
+    <h3>Image</h3>
+    <h2>Syntax Tag &lt;img&gt;</h2>
+    <p>
+        Tag &lt;img&gt; adalah tag yang digunakan untuk memasukan gambar ke dalam webpage. Dalam HTML, gambar yang dimasukkan bukanlah file gambar itu sendiri, melainkan sebuah link yang menyambungkan halaman webpage yang disematkan tag &lt;img&gt; menuju webpage yang berisi gambar yang diinginkan.
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/img-syntax.png" alt="img-syntax"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Contoh File Path</h2>
+    <p>Dalam penggunaan tag &lt;img&gt;, penting untuk diingat pencantuman file path gambar dalam attribute 'src' yang sesuai agar HTML dapat menarik gambar yang sesuai dengan keinginan programmer. Berikut adalah beberapa tata cara pencantuman link file path yang benar:</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/img-file-path.png" alt="img-file-path"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Iframe</h3>
+    <h2>Syntax Iframe</h2>
+    <p>Iframe (disebut juga sebagai inline frame) digunakan untuk menyisipkan webpage ke dalam suatu webpage dengan cara menggunakan tag &lt;iframe&gt;.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="../images/iframe-syntax.png" alt="iframe-syntax"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mengatur Height dan Width dari Iframe</h2>
+    <p>Salah satu atribut dari Iframe yang dapat diatur adalah height dan width dari iframe itu sendiri. Atribut ini dapat ditambahkan secara inline maupun internal/external CSS.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>Inline</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td><img src="../images/iframe-height-width-1.png" alt="iframe-height-width-inline"></td>
+                <td><img src="../images/iframe-height-width-2.png" alt="iframe-height-width-css"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Pengaturan Border pada Iframe</h2>
+    <p>Seperti beberapa object HTML lainnya, Iframe juga memiliki border yang dapat diatur sedemikian rupa sesuai dengan keinginan programmer.</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>Menghilangkan border pada Iframe</td>
+                <td>Mengubah penampilan/style pada border</td>
+            </tr>
+            <tr>
+                <td><img src="../images/iframe-border-1.png" alt="iframe-remove-border"></td>
+                <td><img src="../images/iframe-border-2.png" alt="iframe-border-style"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <footer>
+        <ul class="footer">
+            <li class="previous"><a href="page 2.html">&lt; Halaman Sebelumnya</a></li>
+            <li class="copyright">&copy;2022 | Team Zero</li>
+            <li class="next"><a href="page 4.html">Halaman Selanjutnya &gt;</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
