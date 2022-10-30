@@ -5,16 +5,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page 2</title>
+        <title>Tag Heading dan Paragraph</title>
         <link href="../designs/style.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     </head>
 
-    <body>
-        <h1>Tag Heading dan Paragraph</h1>
+    <body class="bgmateri">
+<!-- nav menu -->
+<header>
+    <h1 class="logo">startfromzero.</h1>
+    <ul class="navbar">
+        <li class="navmenu"><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+            <a>
+                Materi
+                <div class="dropdown-content">
+                  <a class="clickMe" href="page1.html">Struktur HTML Dasar</a>
+                  <a class="clickMe" href="page 2.html">Tag Heading dan Paragraph</a>
+                  <a class="clickMe" href="page3.html">Link, Image, Iframe</a>
+                  <a class="clickMe" href="page 4.html">List dan Table</a>
+                  <a class="clickMe" href="page5.html">Form dan PHP Dasar</a>
+                  <a class="clickMe" href="page 6.html">CSS</a>
+                </div>
+            </a>
+        </li>
+        <li class="navmenu"><a href="About us.html">About Us</a></li>
+    </ul>
+</header>
+
+
+
+<!-- rest of page -->
+        <div class="restofpage">
+            <h1 class="cleartop">Tag Heading dan Paragraph</h1>
         <!-- referensi dari https://skilvul.com/courses/html-dasar/lessons/html-tag-untuk-menampilkan-teks/topics/heading -->
 
         <h2>Heading</h2>
@@ -101,22 +127,14 @@
         </table>
 
         <footer>
-
-            <table class="footer">
-    
-                <tr>
-                    <td>
-                        <a class="warna_footer" href="">< Previous page</a>
-                    </td>
-                    <td class="footer_kanan">
-                        <a class="warna_footer" href="">Next Page ></a>
-                    </td>
-                </tr>
-                
-            </table>
-    
+            <ul class="footer">
+                <li class="previous"><a href="page1.html">&lt; Halaman Sebelumnya</a></li>
+                <li class="copyright">&copy;2022 | Team Zero</li>
+                <li class="next"><a href="page3.html">Halaman Selanjutnya &gt;</a></li>
+            </ul>
         </footer>
 
     </body>
+    </div>
 
 </html>

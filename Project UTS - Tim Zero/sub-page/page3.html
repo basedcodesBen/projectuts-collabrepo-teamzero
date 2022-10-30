@@ -9,11 +9,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>Link, Image, Iframe</h1>
-        <br><br>
+<body class="bgmateri">
+    <!-- nav menu -->
+<header>
+    <h1 class="logo">startfromzero.</h1>
+    <ul class="navbar">
+        <li class="navmenu"><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+            <a>
+                Materi
+                <div class="dropdown-content">
+                  <a class="clickMe" href="page1.html">Struktur HTML Dasar</a>
+                  <a class="clickMe" href="page 2.html">Tag Heading dan Paragraph</a>
+                  <a class="clickMe" href="page3.html">Link, Image, Iframe</a>
+                  <a class="clickMe" href="page 4.html">List dan Table</a>
+                  <a class="clickMe" href="page5.html">Form dan PHP Dasar</a>
+                  <a class="clickMe" href="page 6.html">CSS</a>
+                </div>
+            </a>
+        </li>
+        <li class="navmenu"><a href="About us.html">About Us</a></li>
+    </ul>
+</header>
+
+
+
+<!-- rest of page -->
+    <div class="restofpage">
+        <h1 class="cleartop">Link, Image, Iframe</h1>
     <h3>Link</h3>
     <h2>Syntax dan Hyperlink</h2>
     <p>HTML menggunakan link yang bersifat Hyperlink. Ketika di klik, link tersebut dapat mengarahkan pengguna ke webpage lain, atau bagian tertentu dalam homepage yang sedang dibaca.</p>
@@ -49,6 +74,7 @@
             </tr>
         </tbody>
     </table>
+
     <h2>Link mailto:</h2>
     <p>
         Link yang disematkan dalam HTML juga dapat digunakan untuk mengarahkan pengguna untuk mengirim email dari akun email pengguna.
@@ -63,6 +89,7 @@
         <br><br>
 
 
+
     <h3>Image</h3>
     <h2>Syntax Tag &lt;img&gt;</h2>
     <p>
@@ -75,6 +102,7 @@
             </tr>
         </tbody>
     </table>
+
     <h2>Contoh File Path</h2>
     <p>Dalam penggunaan tag &lt;img&gt;, penting untuk diingat pencantuman file path gambar dalam attribute 'src' yang sesuai agar HTML dapat menarik gambar yang sesuai dengan keinginan programmer. Berikut adalah beberapa tata cara pencantuman link file path yang benar:</p>
     <table>
@@ -96,6 +124,7 @@
             </tr>
         </tbody>
     </table>
+
     <h2>Mengatur Height dan Width dari Iframe</h2>
     <p>Salah satu atribut dari Iframe yang dapat diatur adalah height dan width dari iframe itu sendiri. Atribut ini dapat ditambahkan secara inline maupun internal/external CSS.</p>
     <table>
@@ -110,6 +139,7 @@
             </tr>
         </tbody>
     </table>
+
     <h2>Pengaturan Border pada Iframe</h2>
     <p>Seperti beberapa object HTML lainnya, Iframe juga memiliki border yang dapat diatur sedemikian rupa sesuai dengan keinginan programmer.</p>
     <table>
@@ -124,5 +154,14 @@
             </tr>
         </tbody>
     </table>
+    </div>
+
+    <footer>
+        <ul class="footer">
+            <li class="previous"><a href="page 2.html">&lt; Halaman Sebelumnya</a></li>
+            <li class="copyright">&copy;2022 | Team Zero</li>
+            <li class="next"><a href="page 4.html">Halaman Selanjutnya &gt;</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
